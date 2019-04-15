@@ -1,5 +1,9 @@
 package q1
 
+/*
+https://leetcode.com/problems/two-sum/
+ */
+
 func twoSum(nums []int, target int) []int {
 	numIdxMap := make(map[int]int, len(nums))
 	for i, v := range nums {
