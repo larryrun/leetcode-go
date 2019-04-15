@@ -13,7 +13,7 @@ func twoSum(nums []int, target int) []int {
 		num2 := target - nums[i]
 		idx2, ok := numIdxMap[num2]
 		if ok && i < idx2 {
-			idxes := [2]int{i + 1, idx2 + 1}
+			idxes := [2]int{i, idx2}
 			return idxes[:]
 		}
 	}
