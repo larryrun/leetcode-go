@@ -1,4 +1,4 @@
-package q1
+package main
 
 /*
 https://leetcode.com/problems/two-sum/
